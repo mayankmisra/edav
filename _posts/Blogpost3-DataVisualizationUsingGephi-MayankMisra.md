@@ -45,16 +45,15 @@ On the Mac ⌘⇧G enter /Applications/Gephi.app/Contents/Resources/gephi/etc
     The changed lines should look like this:
 
 '''
-# default location of JDK/JRE, can be overridden by using --jdkhome  switch
 jdkhome=&quot;/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Content
 '''
 
 - Supercharge it while you are at it.  Increase the memory allocation.  I
 increased it to 4GB in my case.
 
-# command line switches
+```
 default_options="--branding gephi -J-Xms2048m -J-Xmx4096m -J-Xverify:none -J-Dsun.java2d.noddraw=true -J-Dsun.awt.noerasebackground=true -J-Dnetbeans.indexing.noFileRefresh=true -J-Dplugin.manager.check.interval=EVERY_DAY"
-# for development purposes you may wish to append: -J-Dnetbeans.logger.console=true -J-ea
+```
 
 - Install [NodeXL](http://nodexl.codeplex.com/releases/view/117659).  NodeXL is
 an Excel template that
@@ -101,7 +100,10 @@ c/libs/1_35_0/libs/graph/doc/fruchterman_reingold.html)
 Let the alogrithm run and thats it for a first pass.  You can play around with
 the visualization by tweaking the way you weigh/rank the nodes and edges.
 
-Here is the [output for folks who follow me on
+Here is the output for folks who follow me on
+Twitter
+
+![output for folks who follow me on
 Twitter](https://dl.dropboxusercontent.com/u/10381353/blogPost3.png), along wih
 a cluster representing their followers.  Now I know who I need to prioritize
 when responding to direct messages.
