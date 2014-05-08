@@ -26,6 +26,7 @@ for the OS should be Java 7 (jdk1.7.0_45.jdk)
 
 
 '''
+
 $ ls -la
 total 0
 drwxr-xr-x  5 root  wheel  170 12  6 17:34 .
@@ -37,6 +38,7 @@ $ java -version
 java version &quot;1.7.0_45&quot;
 Java(TM) SE Runtime Environment (build 1.7.0_45-b18)
 Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode)
+
 '''
 
 
@@ -101,12 +103,12 @@ Let the alogrithm run and thats it for a first pass.  You can play around with
 the visualization by tweaking the way you weigh/rank the nodes and edges.
 
 Here is the output for folks who follow me on
-Twitter
-
-![output for folks who follow me on
-Twitter](https://dl.dropboxusercontent.com/u/10381353/blogPost3.png), along wih
+Twitter, along wih
 a cluster representing their followers.  Now I know who I need to prioritize
 when responding to direct messages.
+
+![output for folks who follow me on
+Twitter](https://dl.dropboxusercontent.com/u/10381353/blogPost3.png)
 
 
 ## Further Reading
