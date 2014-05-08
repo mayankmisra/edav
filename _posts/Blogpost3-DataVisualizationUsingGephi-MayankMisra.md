@@ -25,8 +25,7 @@ for the OS should be Java 7 (jdk1.7.0_45.jdk)
 
 
 
-'''
-
+```
 $ ls -la
 total 0
 drwxr-xr-x  5 root  wheel  170 12  6 17:34 .
@@ -38,8 +37,7 @@ $ java -version
 java version &quot;1.7.0_45&quot;
 Java(TM) SE Runtime Environment (build 1.7.0_45-b18)
 Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode)
-
-'''
+```
 
 
     -- Edit '/Applications/Gephi.app/Contents/Resources/gephi/etc/gephi.conf'.
