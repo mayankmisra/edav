@@ -39,14 +39,13 @@ Java(TM) SE Runtime Environment (build 1.7.0_45-b18)
 Java HotSpot(TM) 64-Bit Server VM (build 24.45-b08, mixed mode)
 ```
 
-
     -- Edit '/Applications/Gephi.app/Contents/Resources/gephi/etc/gephi.conf'.
 On the Mac ⌘⇧G enter /Applications/Gephi.app/Contents/Resources/gephi/etc
     The changed lines should look like this:
 
-'''
+```
 jdkhome=&quot;/Library/Java/JavaVirtualMachines/1.6.0_37-b06-434.jdk/Content
-'''
+```
 
 - Supercharge it while you are at it.  Increase the memory allocation.  I
 increased it to 4GB in my case.
